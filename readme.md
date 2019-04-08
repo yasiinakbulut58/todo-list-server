@@ -12,4 +12,4 @@ Run the server
 
     npm start
     
-Visit to [localhost:3001]() to see what endpoints are available
+Visit to <http://localhost:3001> to see what endpoints are available
