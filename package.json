@@ -1,15 +1,16 @@
 {
-  "name": "todo-list-server",
-  "version": "0.1.0",
-  "description": "TODO list mock api server",
-  "main": "index.js",
-  "dependencies": {
-    "json-server": "^0.14.2"
-  },
-  "devDependencies": {},
+  "name": "todo-list-json-server",
+  "version": "1.0.0",
+  "description": "Template for creating a backend using JSON Server",
+  "main": "server.js",
+  "license": "MIT",
+  "author": "Yasin Akbulut",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "NODE_ENV=development node server.js",
+    "start": "NODE_ENV=production node server.js"
   },
-  "author": "Sonny Huynh",
-  "license": "ISC"
+  "dependencies": {
+    "clone": "^2.1.2",
+    "json-server": "^0.17.1"
+  }
 }
